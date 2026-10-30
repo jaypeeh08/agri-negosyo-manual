@@ -62,6 +62,10 @@ footer.book{margin-top:64px;padding-top:14px;border-top:1px solid var(--line);co
   @page{size:A4;margin:20mm 15mm 18mm}
   body{font-size:10.5pt}main{max-width:none;padding:0}
   .cover{min-height:252mm;border:0}.howto{page-break-after:always}nav.toc{page-break-after:always;margin-top:0}
+  /* The whole contents on one page. */
+  nav.toc{margin-bottom:0;page-break-inside:avoid}nav.toc h2{font-size:1.25rem;margin-bottom:4px}
+  nav.toc .part{margin:8px 0 1px;padding-bottom:2px;font-size:.7rem}
+  nav.toc li.ch a{padding:1.5px 0;font-size:.92em;line-height:1.35}
   .part-title{page-break-before:always;border-top:0;background:none;padding-top:80mm}
   section.chapter{page-break-before:always;margin-top:0}
   figure,table,.callout,ol.steps>li{page-break-inside:avoid}h3,h4,.chapter-head{page-break-after:avoid}
